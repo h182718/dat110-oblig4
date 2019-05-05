@@ -2,14 +2,18 @@ package no.hvl.dat110.ac.rest;
 
 import com.google.gson.Gson;
 import no.hvl.dat110.ac.rest.AccessLog;
-import static spark.Spark.*;
-
+import static spark.Spark.after;
+import static spark.Spark.get;
+import static spark.Spark.port;
+import static spark.Spark.put;
+import static spark.Spark.post;
+import static spark.Spark.delete;
 /**
  * Hello world!
  */
 public class App {
 
-    static no.hvl.dat110.ac.rest.AccessLog accesslog = null;
+    static AccessLog accesslog = null;
     static AccessCode accesscode = null;
 
     public static void main(String[] args) {

@@ -1,0 +1,66 @@
+\documentclass[11pt]{article}
+
+\usepackage{a4wide}
+\usepackage{mathptm}
+\usepackage{xspace}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{tikz}
+\usepackage{tkz-graph}
+\usetikzlibrary{shapes.misc, positioning}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+\begin{document}
+
+\title{DAT110 Oblig 4}
+
+\author{Kjetil Hunshammer}
+
+\maketitle
+
+\begin{abstract}
+Eit Arduino tilgangsystem nettverkstilgang, og ein skyteneste for mottak og sending av data.
+\end{abstract}
+\pagebreak
+\input{./sections/1Introduction}
+
+\input{./sections/2ACDM}
+
+\input{./sections/3ACH}
+
+\input{./sections/4REST}
+
+\input{./sections/5DC}
+
+\input{./sections/6SystemTesting}
+
+\input{./sections/7Conclusions}
+
+
+\bibliographystyle{plain}
+
+\end{document}
